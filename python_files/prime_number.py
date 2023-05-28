@@ -1,3 +1,7 @@
+from pyfiglet import figlet_format
+
+print(figlet_format("Prime  numbers"))
+
 number = int(input("Enter number: "))
 
 if number <=1:
